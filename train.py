@@ -1,3 +1,6 @@
+import sysimport subprocess
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'pandas'])
+
 from sklearn.linear_model import LogisticRegression
 import argparse
 import os
