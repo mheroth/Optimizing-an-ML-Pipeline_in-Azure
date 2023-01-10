@@ -40,7 +40,10 @@ The best model selected by autoML was a voting ensemble with 91,66 % accuracy.
 **Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
 
 ## Future work
-**What are some areas of improvement for future experiments? Why might these improvements help the model?**
+The following steps are possible to improve the model with future work:
+- running AutoML for much longer to find better models
+- Exploring hyperdrive with higher variety of classification models
+- Since the data is very imbalanced, use a different metric like AUC_weighted, which is better for imbalanced data
 
 ## Proof of cluster clean up
 ![image](./cleanup.PNG)
