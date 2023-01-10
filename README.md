@@ -18,6 +18,14 @@ This dataset contains data about individuals who are applying for bank loans. We
 The best performing model was a the voting ensemble with ...% accuracy. There were also a lot of other models with a comparable accuracy."
 
 ## Scikit-learn Pipeline
+The Scikit-learn pipeline uses the provided data from the given URL as input. After download a cleaning function is used to to the folllowing steps:
+- Removing NaNs from the dataset
+- One-hot encoding job titles, contact and education variables
+- Encoding a additional categorical vales
+- Enconding months of the year
+- Encoding the target variable.
+
+After cleaning the data is split into train and test dataset. A 
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 
 **What are the benefits of the parameter sampler you chose?**
