@@ -43,4 +43,4 @@ The best model selected by autoML was a voting ensemble with 91,66 % accuracy.
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 
 ## Proof of cluster clean up
-![image](cleanup.png)
+![image](./cleanup.PNG)
