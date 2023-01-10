@@ -36,10 +36,10 @@ The best HyperDrive Model has an accuracy of 91,76 %.
 ## AutoML
 The AutoML pipeline is very similar to the Scikit-learn pipeline, which is described above. The data is retrieved from the given URL link and cleaned with the same function described above. The data is then not splitted into test and train dataset. The variables and target dataframes are merged prior to the autoML process. The joined dataset is used as input in the autoML configuration and the autoML run is processed. I choose accuracy as primary metric and classification as task.
 
-The best model selected by autoML was a voting ensemble with 91,66 % accuracy.
+The best model selected by autoML was a voting ensemble with 91,71 % accuracy.
 
 ## Pipeline comparison
-The two models performe very similar, since they have nearly the same accuracy. With the hyperdrive model we achieved 91,76 % accuracy and with the autoML model we got a a accuracy of 91,66 %. I think the difference came from the different cross-validation process.
+The two models performe very similar, since they have nearly the same accuracy. With the hyperdrive model we achieved 91,76 % accuracy and with the autoML model we got a a accuracy of 91,71 %. I think the difference came from the different cross-validation process.
 The Architecture of both models are very different. The hyperdrive model uses a logistic regression classifier (use a fitted logistic function) and the autoML a voting ensemble classifier (uses a number of individual classifier and averages the class probability to make a prediction).
 
 My takeaway: it is very easy and fast to use autoML and we get very good results compared to a hyperdrive model.
