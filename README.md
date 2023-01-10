@@ -13,7 +13,7 @@ This model is then compared to an Azure AutoML run.
 
 
 ## Summary
-**This dataset contains data about individuals who are applying for bank loans. We seek to predict wheter each individualer will subscribe to a service or not. Therefore we use the based information about each individual."**
+This dataset contains data about individuals who are applying for bank loans. We seek to predict wheter each individualer will subscribe to a service or not. Therefore we use the based information about each individual."
 
 **The best performing model was a the voting ensemble with ...% accuracy. There were also a lot of other models with a comparable accuracy."**
 
